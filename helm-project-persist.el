@@ -1,4 +1,4 @@
-;;; help-project-persist.el --- Helm integration for project-persist package
+;;; helm-project-persist.el --- Helm integration for project-persist package
 ;;
 ;; Author: Sliim <sliim@mailoo.org>
 ;; Version: 1.0.0
