@@ -1,0 +1,22 @@
+* Helm project-persist
+
+This package provides capabilities to search and open project from project-persist with helm library.
+
+** Requirements
+- Helm (https://github.com/emacs-helm/helm)
+- project-persist (https://github.com/rdallasgray/project-persist)
+** Installation
+*** From github
+Clone this repository and copy helm-project-persist.el in your ~load-path~
+
+And add this in your configuration:
+#+BEGIN_SRC elisp
+(require 'helm-project-persist)
+#+END_SRC
+** Usage
+Type M-x ~helm-project-persist~ to show project list.
+
+You can bind it to a keybinding like this:
+#+BEGIN_SRC elisp
+(global-set-key (kbd "C-c P h") 'helm-project-persist)
+#+END_SRC
