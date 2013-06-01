@@ -2,6 +2,7 @@
 ;;
 ;; Author: Sliim <sliim@mailoo.org>
 ;; Version: 1.0.0
+;; Package-Requires: ((helm "1.5.2") (project-persist "0.1.4"))
 ;; Keywords: project-persist project helm
 
 ;; This file is not part of GNU Emacs.
