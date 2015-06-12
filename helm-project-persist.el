@@ -41,15 +41,15 @@
     (init . (lambda ()
               (with-current-buffer (helm-candidate-buffer 'local)
                 (insert
-                 (s-join "\n" (pp/project-list))))))
+                 (s-join "\n" (project-persist--project-list))))))
     (candidates-in-buffer)
     (candidate-number-limit . 10)
     (keymap . ,helm-generic-files-map)
     (help-message . helm-generic-file-help-message)
     (mode-line . helm-generic-file-mode-line-string)
     (action . (lambda (candidate)
-                (pp/offer-save-if-open-project)
-                (pp/project-open candidate))))
+                (project-persist--offer-save-if-open-project)
+                (project-persist--project-open candidate))))
   "Helm source definition.")
 
 ;;;###autoload
