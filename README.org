@@ -2,6 +2,9 @@
 
 This package provides capabilities to search and open project from project-persist with helm library.
 
+[[http://melpa.org/#/helm-project-persist][file:http://melpa.org/packages/helm-project-persist-badge.svg]]
+[[http://stable.melpa.org/#/helm-project-persist][file:http://stable.melpa.org/packages/helm-project-persist-badge.svg]]
+
 ** Requirements
 - Helm (https://github.com/emacs-helm/helm)
 - project-persist (https://github.com/rdallasgray/project-persist)
