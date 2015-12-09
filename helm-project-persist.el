@@ -34,6 +34,7 @@
 ;; requires
 (require 'project-persist)
 (require 'helm)
+(require 'helm-files)
 
 (defvar helm-c-source-project-persist-project-list
   `((name . "Project list")
